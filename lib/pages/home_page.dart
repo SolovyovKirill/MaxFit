@@ -58,28 +58,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
-// bottomNavigationBar: BottomNavigationBar(
-//   items: [
-//     BottomNavigationBarItem(
-//       icon: Icon(
-//         Icons.fitness_center,
-//       ),
-//       label: 'My Workouts',
-//     ),
-//     BottomNavigationBarItem(
-//       icon: Icon(
-//         Icons.search,
-//       ),
-//       label: 'Find Workouts',
-//     ),
-//   ],
-//   currentIndex: sectionIndex,
-//   backgroundColor: Colors.white30,
-//   selectedItemColor: Colors.white,
-//   onTap: (int index) {
-//     setState(() {
-//       sectionIndex = index;
-//     });
-//   },
-// ),
